@@ -17,9 +17,9 @@ class Clock extends Component {
     }
     render() {
         return (
-            <Typography variant="h6" align="right">
+            <Typography variant="h6" align="left">
                 {this.state.date.toLocaleTimeString()}
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;
                 {days[this.state.date.getDay() - 1]}
             </Typography>
         )

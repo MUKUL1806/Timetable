@@ -11,12 +11,12 @@ export default function Navbar() {
             <AppBar style={{ height: '50px', weidth: '50px' }} position="static">
                 <Toolbar>
                     <Typography variant="h6" >
-                        <img style={{ height: '50px', width: '50px', borderRadius: "0.5rem", marginTop: ".8rem" }} src="Mnit_logo.png" alt="Mnit logo" />
+                        <img style={{ height: '50px', width: '50px', borderRadius: "0.5rem", marginTop: ".8rem" }} src="https://upload.wikimedia.org/wikipedia/en/b/b7/Mnit_logo.png" alt="logo" />
                     </Typography>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1>Time table</h1>
-                    <div style={{ paddingLeft: "1.2rem" }}>
+
+                    <span style={{ paddingLeft: "1.2rem" }}>
                         <DigitalClock />
-                    </div>
+                    </span>
                 </Toolbar>
             </AppBar>
         </div>

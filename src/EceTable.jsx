@@ -22,13 +22,13 @@ function createData(subject, teacher, timing, link) {
 let rows = [];
 const E31s = 'Antenna & Wave Propagation';
 const E31t = 'R.P.Yadav';
-const E31li = '#';
+const E31li = 'https://meet.google.com/ikj-aohn-jbp?hs=224';
 const E32s = 'Computer Architecture';
 const E32t = 'Rakesh Bairathi';
-const E32li = '#';
+const E32li = 'https://meet.google.com/ikj-aohn-jbp?hs=224';
 const E33s = 'Wireless & Mobile Communication';
 const E33t = 'ILA Sharma';
-const E33li = '#';
+const E33li = 'https://meet.google.com/ikj-aohn-jbp?hs=224';
 const E34s = 'Control System Engineering';
 const E34t = 'Chitrakant Sahu';
 const E34li = '#';
@@ -105,23 +105,23 @@ export default function BasicTable() {
                         <TableCell>Subject</TableCell>
                         <TableCell >Teacher</TableCell>
                         <TableCell >Timing&nbsp;</TableCell>
-                        <TableCell >Links&nbsp;</TableCell>
+                        <TableCell >Link&nbsp;</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
                     {rows.map((row) => (
                         <TableRow key={row.name}>
                             <TableCell component="th" scope="row">
-                                {row.subject}
+                                <a href={row.link}>{row.subject}</a>
                             </TableCell>
                             <TableCell >{row.teacher}</TableCell>
                             <TableCell >{row.timing}</TableCell>
-                            <TableCell >{row.link}</TableCell>
+                            <TableCell ><a href={row.link}>Lecture Link</a></TableCell>
 
                         </TableRow>
                     ))}
                 </TableBody>
             </Table>
-        </TableContainer>
+        </TableContainer >
     );
 }

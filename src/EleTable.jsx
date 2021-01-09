@@ -105,11 +105,11 @@ export default function BasicTable() {
                     {rows.map((row) => (
                         <TableRow key={row.name}>
                             <TableCell component="th" scope="row">
-                                {row.subject}
+                                <a href={row.link}>{row.subject}</a>
                             </TableCell>
                             <TableCell >{row.teacher}</TableCell>
                             <TableCell >{row.timing}</TableCell>
-                            <TableCell >{row.link}</TableCell>
+                            <TableCell ><a href={row.link}>Lecture Link</a></TableCell>
 
                         </TableRow>
                     ))}
