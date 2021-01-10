@@ -20,24 +20,24 @@ function createData(subject, teacher, timing, link) {
 
 
 let rows = [];
-const E35s = 'Mechanical Working of Metals';
-const E35t = 'Vijay N. Nadakuduru';
-const E35li = '#';
-const E33s = 'Polymeric and Ceramic Materials';
-const E33t = 'Ajaya K. Pradhan';
-const E33li = '#';
-const E34s = 'Materials in Industry';
-const E34t = 'Abhishek Tripati';
-const E34li = '#';
-const E32s = 'Heat Treatment';
-const E32t = 'Ashok Sharma';
-const E32li = '#';
-const E31s = 'Steel Making';
-const E31t = 'Jyotirmaya Kar';
+const E31s = 'PEPD';
+const E31t = 'Robhidas Gangaram Bhoi';
 const E31li = '#';
-const E36s = '';
-const E36t = '';
-const E36li = '';
+const E32s = 'PR';
+const E32t = 'Shiv Om Meena';
+const E32li = '#';
+const E33s = 'MMChE';
+const E33t = 'S. Upadhtyaya';
+const E33li = '#';
+const E34s = 'PDC';
+const E34t = 'Suja George';
+const E34li = '#';
+const E35s = 'CT';
+const E35t = 'S.K.Jana';
+const E35li = '#';
+const E36s = 'TP';
+const E36t = 'Kailash Singh';
+const E36li = '#';
 
 export default function BasicTable() {
     const classes = useStyles();
@@ -48,55 +48,50 @@ export default function BasicTable() {
     setInterval(updateday, 1000);
     if (day === 1) {
         rows = [
-            createData(E34s, E34t, '9-9.45AM', E34li),
-            createData(E31s, E31t, '10-10.45AM', E31li),
-            createData(E32s, E32t, '11-11.45PM', E32li),
-            createData(E33s, E33t, '12-12.45PM', E33li),
-            createData(E35s, E35t, '3-3.45PM', E35li),
+            createData(E33s, E33t, '9-9.45AM', E33li),
+            createData(E32s, E32t, '10-10.45AM', E32li),
+            createData(E31s, E31t, '11-11.45PM', E31li),
+            createData(E36s, E36t, '12-12.45PM', E36li),
         ];
     }
     else if (day === 2) {
         rows = [
-            createData(E31s, E31t, '9-9.45AM', E31li),
-            createData(E34s, E34t, '10-10.45AM', E34li),
-            createData(E35s, E35t, '11-11.45PM', E35li),
-            createData(E36s, E36t, '12-12.45PM', E36li),
-            createData(E33s, E33t, '3-3.45PM', E33li),
+            createData(E32s, E32t, '9-9.45AM', E32li),
+            createData(E33s, E33t, '10-10.45AM', E33li),
+            createData(E34s, E34t, '11-11.45PM', E34li),
+            createData(E35s, E35t, '12-12.45PM', E35li),
         ];
     }
     else if (day === 3) {
         rows = [
-            createData(E35s, E35t, '9-9.45AM', E35li),
-            createData(E31s, E31t, '10-10.45AM', E31li),
-            createData(E32s, E32t, '11-11.45PM', E32li),
-            createData(E33s, E33t, '12-12.45PM', E33li),
-            createData(E34s, E34t, '3-3.45PM', E34li),
+            createData(E34s, E34t, '9-9.45AM', E34li),
+            createData(E32s, E32t, '10-10.45AM', E32li),
+            createData(E31s, E31t, '11-11.45PM', E31li),
+            createData(E36s, E36t, '12-12.45PM', E36li),
         ];
     }
     else if (day === 4) {
         rows = [
-            createData(E32s, E32t, '9-9.45AM', E32li),
-            createData(E34s, E34t, '10-10.45AM', E34li),
-            createData(E35s, E35t, '11-11.45PM', E35li),
-            createData(E36s, E36t, '12-12.45PM', E36li),
-            createData(E32s, E32t, '3-3.45PM', E32li),
+            createData(E31s, E31t, '9-9.45AM', E31li),
+            createData(E33s, E33t, '10-10.45AM', E33li),
+            createData(E34s, E34t, '11-11.45PM', E34li),
+            createData(E35s, E35t, '12-12.45PM', E35li),
         ];
     }
     else if (day === 5) {
         rows = [
-            createData(E36s, E36t, '9-9.45AM', E36li),
-            createData(E31s, E31t, '10-10.45AM', E31li),
-            createData(E32s, E32t, '11-11.45PM', E32li),
-            createData(E33s, E33t, '12-12.45PM', E33li),
-            createData(E31s, E31t, '3-3.45PM', E31li),
+            createData(E35s, E35t, '9-9.45AM', E35li),
+            createData(E32s, E32t, '10-10.45AM', E32li),
+            createData(E31s, E31t, '11-11.45PM', E31li),
+            createData(E36s, E36t, '12-12.45PM', E36li),
         ];
     }
     else if (day === 6) {
         rows = [
-            createData(E33s, E33t, '9-9.45AM', E33li),
-            createData(E34s, E34t, '10-10.45AM', E34li),
-            createData(E35s, E35t, '11-11.45PM', E35li),
-            createData(E36s, E36t, '12-12.45PM', E36li),
+            createData(E36s, E36t, '9-9.45AM', E36li),
+            createData(E33s, E33t, '10-10.45AM', E33li),
+            createData(E34s, E34t, '11-11.45PM', E34li),
+            createData(E35s, E35t, '12-12.45PM', E35li),
         ];
     }
     {

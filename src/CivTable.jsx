@@ -46,7 +46,7 @@ export default function BasicTable() {
         setDay(new Date().getDay());
     }
     setInterval(updateday, 1000);
-    if (day === 0) {
+    if (day === 1) {
         rows = [
             createData(E34s, E34t, '9-9.45AM', E34li),
             createData(E31s, E31t, '10-10.45AM', E31li),
