@@ -3,6 +3,8 @@ import Select from 'react-select';
 import ETable from './EceTable';
 import EleTable from './EleTable';
 import MecTable from './MecTable';
+import CivTable from './CivTable';
+import MetaTable from './MetaTable';
 const options = [
     { value: 'Cse', label: 'COMPUTER SCIENCE' },
     { value: 'Ece', label: 'ELECTRONICS & COMM.' },
@@ -103,7 +105,7 @@ export default class App extends React.Component {
                         options={options}
                         placeholder="--Select Branch--"
                     />
-
+                    <CivTable />
                 </div>
             );
         }
@@ -131,7 +133,7 @@ export default class App extends React.Component {
                         options={options}
                         placeholder="--Select Branch--"
                     />
-
+                    <MetaTable />
                 </div>
             );
         }
