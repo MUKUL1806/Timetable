@@ -10,7 +10,7 @@ import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles({
     table: {
-        minWidth: 650,
+        minWidth: 100,
     },
 });
 
@@ -25,10 +25,10 @@ const E31t = 'R.P.Yadav';
 const E31li = 'https://meet.google.com/ikj-aohn-jbp?hs=224';
 const E32s = 'Computer Architecture';
 const E32t = 'Rakesh Bairathi';
-const E32li = 'https://meet.google.com/ikj-aohn-jbp?hs=224';
+const E32li = 'https://meet.google.com/lookup/afwfaalh4z';
 const E33s = 'Wireless & Mobile Communication';
 const E33t = 'ILA Sharma';
-const E33li = 'https://meet.google.com/ikj-aohn-jbp?hs=224';
+const E33li = '#';
 const E34s = 'Control System Engineering';
 const E34t = 'Chitrakant Sahu';
 const E34li = '#';
@@ -94,34 +94,33 @@ export default function BasicTable() {
             createData(E35s, E35t, '12-12.45PM', E35li),
         ];
     }
-    else {
-        createData('Today is holisay so enjoy');
-    }
-    return (
-        <TableContainer component={Paper}>
-            <Table className={classes.table} aria-label="simple table">
-                <TableHead>
-                    <TableRow>
-                        <TableCell>Subject</TableCell>
-                        <TableCell >Teacher</TableCell>
-                        <TableCell >Timing&nbsp;</TableCell>
-                        <TableCell >Link&nbsp;</TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {rows.map((row) => (
-                        <TableRow key={row.name}>
-                            <TableCell component="th" scope="row">
-                                <a href={row.link}>{row.subject}</a>
-                            </TableCell>
-                            <TableCell >{row.teacher}</TableCell>
-                            <TableCell >{row.timing}</TableCell>
-                            <TableCell ><a href={row.link}>Lecture Link</a></TableCell>
-
+    {
+        return (
+            <TableContainer component={Paper}>
+                <Table className={classes.table} aria-label="simple table">
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Subject</TableCell>
+                            <TableCell >Teacher</TableCell>
+                            <TableCell >Timing&nbsp;</TableCell>
+                            <TableCell >Link&nbsp;</TableCell>
                         </TableRow>
-                    ))}
-                </TableBody>
-            </Table>
-        </TableContainer >
-    );
+                    </TableHead>
+                    <TableBody>
+                        {rows.map((row) => (
+                            <TableRow key={row.name}>
+                                <TableCell component="th" scope="row">
+                                    <a href={row.link}>{row.subject}</a>
+                                </TableCell>
+                                <TableCell >{row.teacher}</TableCell>
+                                <TableCell >{row.timing}</TableCell>
+                                <TableCell ><a href={row.link}>Lecture Link</a></TableCell>
+
+                            </TableRow>
+                        ))}
+                    </TableBody>
+                </Table>
+            </TableContainer >
+        );
+    }
 }

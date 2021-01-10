@@ -10,7 +10,7 @@ import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles({
     table: {
-        minWidth: 650,
+        minWidth: 100,
     },
 });
 
@@ -86,9 +86,6 @@ export default function BasicTable() {
             createData(E34s, E34t, '11-11.45PM', E34li),
             createData(E35s, E35t, '12-12.45PM', E35li),
         ];
-    }
-    else {
-        createData('Today is holisay so enjoy');
     }
     return (
         <TableContainer component={Paper}>

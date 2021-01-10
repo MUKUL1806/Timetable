@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
-let days = ['Sunday', 'Monday', 'Wednesday', 'Thrusday', 'Friday', 'Saturday', 'Sunday'];
+let days = ['Sunday', 'Monday', 'Wednesday', 'Thrusday', 'Friday', 'Saturday'];
 class Clock extends Component {
     constructor(props) {
         super(props);
@@ -11,6 +11,7 @@ class Clock extends Component {
             () => this.setState({ date: new Date() }),
             1000
         );
+
     }
     componentWillUnmount() {
         clearInterval(this.timer);
@@ -20,7 +21,7 @@ class Clock extends Component {
             <Typography variant="h6" align="left">
                 {this.state.date.toLocaleTimeString()}
                 &nbsp;
-                {days[this.state.date.getDay() - 1]}
+                {days[this.state.date.getDay()]}
             </Typography>
         )
     }

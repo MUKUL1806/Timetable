@@ -45,7 +45,7 @@ export default class App extends React.Component {
                         onChange={this.handleChange}
                         options={options}
                         placeholder="--Select Branch--"
-                    />;
+                    />
 
                 </div>
             );
@@ -59,7 +59,7 @@ export default class App extends React.Component {
                         onChange={this.handleChange}
                         options={options}
                         placeholder="--Select Branch--"
-                    />;
+                    />
                     <ETable />
                 </div>
             );
@@ -73,7 +73,7 @@ export default class App extends React.Component {
                         onChange={this.handleChange}
                         options={options}
                         placeholder="--Select Branch--"
-                    />;
+                    />
                     <EleTable />
 
                 </div>
@@ -88,7 +88,7 @@ export default class App extends React.Component {
                         onChange={this.handleChange}
                         options={options}
                         placeholder="--Select Branch--"
-                    />;
+                    />
                     <MecTable />
                 </div>
             );
@@ -102,7 +102,7 @@ export default class App extends React.Component {
                         onChange={this.handleChange}
                         options={options}
                         placeholder="--Select Branch--"
-                    />;
+                    />
 
                 </div>
             );
@@ -116,7 +116,7 @@ export default class App extends React.Component {
                         onChange={this.handleChange}
                         options={options}
                         placeholder="--Select Branch--"
-                    />;
+                    />
 
                 </div>
             );
@@ -130,7 +130,7 @@ export default class App extends React.Component {
                         onChange={this.handleChange}
                         options={options}
                         placeholder="--Select Branch--"
-                    />;
+                    />
 
                 </div>
             );
