@@ -22,13 +22,13 @@ function createData(subject, teacher, timing, link) {
 let rows = [];
 const E31s = 'PEPD';
 const E31t = 'Robhidas Gangaram Bhoi';
-const E31li = '#';
+const E31li = 'https://meet.google.com/opu-upnn-ciq';
 const E32s = 'PR';
 const E32t = 'Shiv Om Meena';
-const E32li = '#';
+const E32li = 'https://meet.google.com/uwu-jkah-equ';
 const E33s = 'MMChE';
-const E33t = 'S. Upadhtyaya';
-const E33li = '#';
+const E33t = 'Sushant Upadhtyaya';
+const E33li = 'https://meet.google.com/vgo-nwqv-bvz';
 const E34s = 'PDC';
 const E34t = 'Suja George';
 const E34li = '#';
@@ -37,7 +37,7 @@ const E35t = 'S.K.Jana';
 const E35li = '#';
 const E36s = 'TP';
 const E36t = 'Kailash Singh';
-const E36li = '#';
+const E36li = 'https://meet.google.com/usx-cyvt-pos';
 
 export default function BasicTable() {
     const classes = useStyles();

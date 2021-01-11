@@ -28,16 +28,16 @@ const E32t = 'Rakesh Bairathi';
 const E32li = 'https://meet.google.com/lookup/afwfaalh4z';
 const E33s = 'Wireless & Mobile Communication';
 const E33t = 'ILA Sharma';
-const E33li = '#';
+const E33li = 'https://meet.google.com/mso-tigw-aaq?authuser=0';
 const E34s = 'Control System Engineering';
 const E34t = 'Chitrakant Sahu';
-const E34li = '#';
+const E34li = 'https://zoom.us/j/6874938575?pwd=WStPV1V0UE15OFpHUGg0YnpQVk4xZz09';
 const E35s = 'Embedded Systems';
 const E35t = 'Lava Bhargava';
 const E35li = '#';
 const E36s = 'Analog Cmos IC';
 const E36t = 'D.Boolchandani';
-const E36li = '#';
+const E36li = 'https://meet.google.com/soc-nsvy-zpq';
 
 export default function BasicTable() {
     const classes = useStyles();

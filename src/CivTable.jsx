@@ -22,7 +22,7 @@ function createData(subject, teacher, timing, link) {
 let rows = [];
 const E31s = 'Railway & Airpot Engineering';
 const E31t = 'AG';
-const E31li = '#';
+const E31li = 'https://meet.google.com/fbb-frxz-yww';
 const E32s = 'Design of Steel Structures';
 const E32t = 'RN';
 const E32li = '#';
@@ -37,7 +37,7 @@ const E35t = 'SKH';
 const E35li = '#';
 const E36s = 'Water Resources Engineering';
 const E36t = 'HA';
-const E36li = '#';
+const E36li = 'https://meet.google.com/zah-dfvh-pzq ';
 
 export default function BasicTable() {
     const classes = useStyles();
