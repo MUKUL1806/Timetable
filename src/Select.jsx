@@ -6,6 +6,7 @@ import MecTable from './MecTable';
 import CivTable from './CivTable';
 import MetaTable from './MetaTable';
 import CheTable from './Che';
+import CseTable from './CseTable';
 const options = [
     { value: 'Cse', label: 'COMPUTER SCIENCE' },
     { value: 'Ece', label: 'ELECTRONICS & COMM.' },
@@ -49,7 +50,7 @@ export default class App extends React.Component {
                         options={options}
                         placeholder="--Select Branch--"
                     />
-
+                    <CseTable />
                 </div>
             );
         }

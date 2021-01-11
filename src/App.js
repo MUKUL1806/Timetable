@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './Navbar';
 import Select from './Select';
-
 function App() {
   return (
     <div>
@@ -9,7 +8,6 @@ function App() {
       <br />
       <br />
       <Select />
-
     </div>
   );
 }
