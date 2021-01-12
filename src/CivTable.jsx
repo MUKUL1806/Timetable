@@ -25,10 +25,10 @@ const E31t = 'AG';
 const E31li = 'https://meet.google.com/fbb-frxz-yww';
 const E32s = 'Design of Steel Structures';
 const E32t = 'RN';
-const E32li = '#';
+const E32li = 'https://meet.google.com/fdn-obwc-bus ';
 const E33s = 'Design of Foundation & Earth Strucres';
 const E33t = 'NS';
-const E33li = '#';
+const E33li = 'https://meet.google.com/wwj-scyk-znf ';
 const E34s = 'Design of RC System';
 const E34t = 'AS';
 const E34li = '#';
@@ -110,11 +110,11 @@ export default function BasicTable() {
                         {rows.map((row) => (
                             <TableRow key={row.name}>
                                 <TableCell component="th" scope="row">
-                                    <a href={row.link}>{row.subject}</a>
+                                    <a href={row.link} style={{ textDecoration: "none" }}>{row.subject}</a>
                                 </TableCell>
                                 <TableCell >{row.teacher}</TableCell>
                                 <TableCell >{row.timing}</TableCell>
-                                <TableCell ><a href={row.link}>Lecture Link</a></TableCell>
+                                <TableCell ><a href={row.link} style={{ textDecoration: "none" }}>Lecture Link</a></TableCell>
 
                             </TableRow>
                         ))}

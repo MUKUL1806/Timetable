@@ -22,6 +22,7 @@ class Clock extends Component {
                 {this.state.date.toLocaleTimeString()}
                 &nbsp;
                 {days[this.state.date.getDay()]}
+
             </Typography>
         )
     }

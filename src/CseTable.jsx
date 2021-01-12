@@ -28,7 +28,7 @@ const E32t = 'MA';
 const E32li = '';
 const E33s = 'Object Oriented Analysis and Design';
 const E33t = 'SSC';
-const E33li = '#';
+const E33li = 'https://meet.google.com/gnz-urvu-tor';
 const E34s = 'Computer and Network Theory';
 const E34t = 'RBB';
 const E34li = 'https://meet.google.com/lookup/gxgl5dsigi';
@@ -110,11 +110,11 @@ export default function BasicTable() {
                         {rows.map((row) => (
                             <TableRow key={row.name}>
                                 <TableCell component="th" scope="row">
-                                    <a href={row.link}>{row.subject}</a>
+                                    <a href={row.link} style={{ textDecoration: "none" }}>{row.subject}</a>
                                 </TableCell>
                                 <TableCell >{row.teacher}</TableCell>
                                 <TableCell >{row.timing}</TableCell>
-                                <TableCell ><a href={row.link}>Lecture Link</a></TableCell>
+                                <TableCell ><a href={row.link} style={{ textDecoration: "none" }}>Lecture Link</a></TableCell>
 
                             </TableRow>
                         ))}

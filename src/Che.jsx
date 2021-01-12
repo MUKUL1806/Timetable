@@ -34,7 +34,7 @@ const E34t = 'Suja George';
 const E34li = '#';
 const E35s = 'CT';
 const E35t = 'S.K.Jana';
-const E35li = '#';
+const E35li = 'http://meet.google.com/wam-qtfr-kkr';
 const E36s = 'TP';
 const E36t = 'Kailash Singh';
 const E36li = 'https://meet.google.com/usx-cyvt-pos';
@@ -110,11 +110,11 @@ export default function BasicTable() {
                         {rows.map((row) => (
                             <TableRow key={row.name}>
                                 <TableCell component="th" scope="row">
-                                    <a href={row.link}>{row.subject}</a>
+                                    <a href={row.link} style={{ textDecoration: "none" }}>{row.subject}</a>
                                 </TableCell>
                                 <TableCell >{row.teacher}</TableCell>
                                 <TableCell >{row.timing}</TableCell>
-                                <TableCell ><a href={row.link}>Lecture Link</a></TableCell>
+                                <TableCell ><a href={row.link} style={{ textDecoration: "none" }}>Lecture Link</a></TableCell>
 
                             </TableRow>
                         ))}

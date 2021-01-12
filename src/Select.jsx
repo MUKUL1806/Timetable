@@ -7,6 +7,8 @@ import CivTable from './CivTable';
 import MetaTable from './MetaTable';
 import CheTable from './Che';
 import CseTable from './CseTable';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 const options = [
     { value: 'Cse', label: 'COMPUTER SCIENCE' },
     { value: 'Ece', label: 'ELECTRONICS & COMM.' },
@@ -32,12 +34,15 @@ export default class App extends React.Component {
         const { selectedOption } = this.state;
         if (!selectedOption) {
             return (
-                <Select
-                    value={selectedOption}
-                    onChange={this.handleChange}
-                    options={options}
-                    placeholder="--Select Branch--"
-                />
+                <div>
+                    <Select
+                        value={selectedOption}
+                        onChange={this.handleChange}
+                        options={options}
+                        placeholder="--Select Branch--"
+                    />
+
+                </div>
             );
         }
         else if (selectedOption.value === 'Cse') {
