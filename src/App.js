@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './Navbar';
 import Select from './Select';
-import Count from './Cou';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
       <br />
       <br />
       <Select />
-
     </div>
   );
 }

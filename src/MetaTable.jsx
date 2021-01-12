@@ -60,7 +60,7 @@ export default function BasicTable() {
             createData(E31s, E31t, '9-9.45AM', E31li),
             createData(E34s, E34t, '10-10.45AM', E34li),
             createData(E35s, E35t, '11-11.45PM', E35li),
-            createData(E36s, E36t, '12-12.45PM', E36li),
+
             createData(E33s, E33t, '3-3.45PM', E33li),
         ];
     }
@@ -78,13 +78,13 @@ export default function BasicTable() {
             createData(E32s, E32t, '9-9.45AM', E32li),
             createData(E34s, E34t, '10-10.45AM', E34li),
             createData(E35s, E35t, '11-11.45PM', E35li),
-            createData(E36s, E36t, '12-12.45PM', E36li),
+
             createData(E32s, E32t, '3-3.45PM', E32li),
         ];
     }
     else if (day === 5) {
         rows = [
-            createData(E36s, E36t, '9-9.45AM', E36li),
+
             createData(E31s, E31t, '10-10.45AM', E31li),
             createData(E32s, E32t, '11-11.45PM', E32li),
             createData(E33s, E33t, '12-12.45PM', E33li),
@@ -96,7 +96,7 @@ export default function BasicTable() {
             createData(E33s, E33t, '9-9.45AM', E33li),
             createData(E34s, E34t, '10-10.45AM', E34li),
             createData(E35s, E35t, '11-11.45PM', E35li),
-            createData(E36s, E36t, '12-12.45PM', E36li),
+
         ];
     }
     {

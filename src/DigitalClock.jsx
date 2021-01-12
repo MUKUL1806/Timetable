@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typography from '@material-ui/core/Typography';
-let days = ['Sunday', 'Monday', 'Wednesday', 'Thrusday', 'Friday', 'Saturday'];
+let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thrusday', 'Friday', 'Saturday'];
 class Clock extends Component {
     constructor(props) {
         super(props);

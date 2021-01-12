@@ -28,7 +28,7 @@ const E32t = 'Rakesh Bairathi';
 const E32li = 'https://meet.google.com/lookup/afwfaalh4z';
 const E33s = 'Wireless & Mobile Communication';
 const E33t = 'ILA Sharma';
-const E33li = 'https://meet.google.com/mso-tigw-aaq?authuser=0';
+const E33li = 'https://classroom.google.com/u/0/c/MjUxNjQ0MjI5NDk5';
 const E34s = 'Control System Engineering';
 const E34t = 'Chitrakant Sahu';
 const E34li = 'https://zoom.us/j/6874938575?pwd=WStPV1V0UE15OFpHUGg0YnpQVk4xZz09';
