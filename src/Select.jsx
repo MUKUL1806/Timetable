@@ -41,6 +41,11 @@ export default class App extends React.Component {
                         options={options}
                         placeholder="--Select Branch--"
                     />
+                    <br />
+                    <br />
+                    <img src="https://assets.telegraphindia.com/abped/2020/Sep/1600357814_5-essential-study.jpg" alt="online"
+                        style={{ width: "100%", height: "45%" }}
+                    />
 
                 </div>
             );
